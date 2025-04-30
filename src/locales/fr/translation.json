@@ -1,0 +1,18 @@
+{
+    "home": {
+      "title": "Bienvenue sur mon portfolio",
+      "description": "Je suis un développeur passionné par la création d’expériences web modernes. Avec une solide expérience en React, TypeScript, et les technologies backend comme NestJS et MySQL, je m'efforce de construire des interfaces intuitives, performantes et maintenables. Mon objectif est de concevoir des solutions qui combinent performance, esthétique et accessibilité pour offrir la meilleure expérience utilisateur possible."
+    },
+    "contact": {
+      "title": "Me contacter"
+    },
+    "navbar": {
+      "home": "Accueil",
+      "projects": "Mes Projets",
+      "skills": "Mes Compétences",
+      "diplomas": "Mes Diplômes",
+      "drawings": "Mes Dessins",
+      "contact": "Contact"
+    }
+  }
+  

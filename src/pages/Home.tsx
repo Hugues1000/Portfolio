@@ -1,9 +1,12 @@
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaDiscord } from "react-icons/fa";
 import "../styles/Home.css";
 import "../styles/Global.css";
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaDiscord } from "react-icons/fa";
 import hugues from "../assets/img/hugues.png";
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <section className="home-container" id="top">
@@ -16,14 +19,9 @@ const Home = () => {
             />
           </div>
           <div className="home-text">
-            <h1 className="home-title">Bienvenue sur mon portfolio</h1>
+            <h1 className="home-title">{t('home.title')}</h1>
             <p className="home-description">
-              Je suis un développeur passionné par la création d’expériences web modernes.
-              Avec une solide expérience en React, TypeScript, et les technologies backend 
-              comme NestJS et MySQL, je m'efforce de construire des interfaces intuitives, 
-              performantes et maintenables. Mon objectif est de concevoir des solutions 
-              qui combinent performance, esthétique et accessibilité pour offrir la meilleure 
-              expérience utilisateur possible.
+              {t('home.description')}
             </p>
             <div className="home-links">
               <a
@@ -48,7 +46,7 @@ const Home = () => {
       </section>
 
       <section className="contact-section" id="contact">
-        <h2 className="contact-title">Me contacter</h2>
+        <h2 className="contact-title">{t('contact.title')}</h2>
         <div className="contact-info">
           <div className="contact-item">
             <FaEnvelope className="contact-icon" />

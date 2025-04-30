@@ -5,6 +5,7 @@
   padding: 3rem 1.5rem 2rem;
   min-height: calc(100vh - 80px);
   background: #fefefe;
+  scroll-margin-top: 80px;
 }
 
 .home-content {
@@ -49,7 +50,7 @@
 
 .home-description {
   font-size: clamp(1rem, 2.5vw, 1.2rem);
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
   color: #444;
   line-height: 1.7;
 }
@@ -57,6 +58,7 @@
 .home-links {
   display: flex;
   gap: 2rem;
+  margin-bottom: 1rem;
 }
 
 .icon-link {
@@ -72,13 +74,13 @@
 
 @media (max-width: 768px) {
   .home-container {
-    padding: 2rem 1rem 1rem;
+    padding: 1.5rem 1rem 0.5rem;
   }
 
   .home-content {
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.2rem;
   }
 
   .home-text {
@@ -87,6 +89,11 @@
 
   .home-links {
     justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-section {
+    padding: 1.5rem 1rem 2rem;
   }
 }
 
@@ -95,6 +102,7 @@
   text-align: center;
   background-color: #f9f9f9;
   border-top: 1px solid #eee;
+  scroll-margin-top: 80px;
 }
 
 .contact-title {

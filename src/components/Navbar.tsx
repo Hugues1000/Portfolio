@@ -1,8 +1,10 @@
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
@@ -36,22 +38,22 @@ const Navbar = () => {
             onClick={() => handleNavClick("home")}
             className={`home-button ${activeHomeSection === "home" ? "active" : ""}`}
           >
-            Home
+            {t("navbar.home")}
           </button>
         </div>
 
         <div className="navbar-center">
           <NavLink to="/projects" className="nav-link">
-            My Projects
+            {t("navbar.projects")}
           </NavLink>
           <NavLink to="/skills" className="nav-link">
-            My Skills
+            {t("navbar.skills")}
           </NavLink>
           <NavLink to="/diplomas" className="nav-link">
-            My Diplomas
+            {t("navbar.diplomas")}
           </NavLink>
           <NavLink to="/drawings" className="nav-link">
-            My Drawings
+            {t("navbar.drawings")}
           </NavLink>
           <a
             href="/home#contact"
@@ -61,7 +63,7 @@ const Navbar = () => {
               handleNavClick("contact");
             }}
           >
-            Contact Me
+            {t("navbar.contact")}
           </a>
         </div>
 
@@ -75,16 +77,16 @@ const Navbar = () => {
           <div className="overlay" onClick={() => setMenuOpen(false)}></div>
           <div className="popup-menu">
             <NavLink to="/projects" className="nav-link" onClick={() => setMenuOpen(false)}>
-              My Projects
+              {t("navbar.projects")}
             </NavLink>
             <NavLink to="/skills" className="nav-link" onClick={() => setMenuOpen(false)}>
-              My Skills
+              {t("navbar.skills")}
             </NavLink>
             <NavLink to="/diplomas" className="nav-link" onClick={() => setMenuOpen(false)}>
-              My Diplomas
+              {t("navbar.diplomas")}
             </NavLink>
             <NavLink to="/drawings" className="nav-link" onClick={() => setMenuOpen(false)}>
-              My Drawings
+              {t("navbar.drawings")}
             </NavLink>
             <a
               href="/home#contact"
@@ -95,7 +97,7 @@ const Navbar = () => {
                 setMenuOpen(false);
               }}
             >
-              Contact Me
+              {t("navbar.contact")}
             </a>
           </div>
         </>
