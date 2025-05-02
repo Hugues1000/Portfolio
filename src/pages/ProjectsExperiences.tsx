@@ -59,7 +59,10 @@ const ProjectsExperiences = () => {
                 <a href="https://github.com/Sihtta/Post-AR" target="_blank" rel="noopener noreferrer">
                   <FaGithub />
                 </a>
-                <a href="https://postar.vercel.app" target="_blank" rel="noopener noreferrer">
+                <a href="http://localhost:5173/Post-AR/dashboard" target="_blank" rel="noopener noreferrer">
+                  <FaExternalLinkAlt />
+                </a>
+                <a href="http://localhost:5173/Post-AR/" target="_blank" rel="noopener noreferrer">
                   <FaExternalLinkAlt />
                 </a>
               </div>
