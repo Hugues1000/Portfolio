@@ -1,0 +1,108 @@
+{
+    "home": {
+      "title": "欢迎来到我的作品集",
+      "description": "我是一名热衷于开发的程序员，专注于创建现代化的网页体验。凭借在 React、TypeScript 和后端技术（如 NestJS 和 MySQL）方面的扎实经验，我致力于构建直观、高效且易于维护的界面。我的目标是设计兼具性能、美感和可访问性的解决方案，提供最佳的用户体验。",
+      "downloadFr": "下载简历 - 法语",
+      "downloadEn": "下载简历 - 英语"
+    },
+    "contact": {
+      "title": "联系我"
+    },
+    "navbar": {
+      "home": "首页",
+      "projects": "项目与工作经验",
+      "skills": "技能",
+      "diplomas": "学历",
+      "drawings": "我的绘画",
+      "contact": "联系我"
+    },
+    "skills": {
+      "title": "技术技能",
+      "technologies": "技术与工具",
+      "languages": "编程语言",
+      "personal": "语言与兴趣",
+      "paragraph": "我能流利地讲法语，并且通过在荷兰和芬兰的旅行掌握了良好的英语。此外，我在高中时学习了一些德语基础。我热爱绘画，这项爱好培养了我的创造力，并提升了我在项目中的艺术敏感度。",
+      "langDescriptions": {
+        "javascript": "良好的逻辑和 DOM 事件理解。",
+        "typescript": "严格类型和 React 最佳实践。",
+        "java": "面向对象编程和数据结构经验。",
+        "html": "结构清晰且可访问。",
+        "css": "响应式设计和简单动画。",
+        "c": "基本的内存和指针理解。",
+        "dart": "主要用于 Flutter。",
+        "php": "服务器端数据处理。",
+        "sql": "复杂查询与数据库结构设计。"
+      },
+      "techDescriptions": {
+        "git": "个人或团队中的高效版本控制。",
+        "github": "协作式项目管理。",
+        "gitlab": "CI/CD 与代码管理。",
+        "react": "组件、hooks 和状态管理。",
+        "symfony": "稳健的 MVC 架构。",
+        "vs": "全面的开发环境。",
+        "flutter": "跨平台移动开发。"
+      }
+    },
+    "diplomas": {
+      "sectionTitle": "我的学历",
+      "bachelor": {
+        "title": "计算机科学 BUT（在读）",
+        "description": "计算机科学 BUT 第二年，应用开发方向：网页开发、面向对象编程和网络管理。",
+        "year": "2023 – 现在"
+      },
+      "bac": {
+        "title": "法国普通高中毕业文凭",
+        "description": "专业方向为计算机科学（NSI）和数学。",
+        "year": "2023"
+      },
+      "brevet": {
+        "title": "初中毕业文凭（Brevet）",
+        "description": "法国国家颁发的初中毕业证书。",
+        "year": "2020"
+      }
+    },
+    "projects": {
+      "title": "我的项目与工作经验",
+      "projectsTitle": "项目",
+      "stack": "技术栈：",
+      "portfolio": {
+        "title": "互动式作品集",
+        "description": "一个直观优雅的作品集，用于展示平面设计师或设计师的才华。"
+      },
+      "focusly": {
+        "title": "Focusly",
+        "description": "一个用于任务管理的学校项目，拥有多种功能。"
+      },
+      "postar": {
+        "title": "Post-AR",
+        "description": "现代响应式明信片管理界面，与荷兰和西班牙的 Erasmus 合作学校共同开发。"
+      },
+      "cyber": {
+        "title": "网络安全课程平台",
+        "description": "在芬兰实习期间开发的职业项目。该网站允许公司创建并销售面向个人的网络安全课程。"
+      },
+      "experiencesTitle": "工作经验",
+      "mytilimer": "暑期工作：了解职业世界，团队合作，遵守生产标准。",
+      "landscape": {
+        "title": "实习 - 生态景观设计办公室",
+        "description": "学习景观设计软件，了解客户需求，制作报价单。"
+      },
+      "erasmus": {
+        "title": "网站开发实习 - Bittiguru Oy（Erasmus 项目）",
+        "description": "网站开发实习（React 与 NestJS），作为与 IUT de Metz（B2 - 计算机科学，PT RA - FI 路线）Erasmus 项目的一部分。"
+      }
+    },
+    "drawings": {
+      "title": "我的绘画",
+      "referenceLabel": "参考来源：",
+      "toolsLabel": "工具：",
+      "references": {
+        "chainsawMan": "电锯人（藤本树的漫画）",
+        "bleach": "死神（久保带人的漫画）",
+        "eldenRing": "艾尔登法环（电子游戏）"
+      },
+      "tools": {
+        "pencil": "纸和石墨铅笔"
+      }
+    }
+  }  

@@ -1,0 +1,108 @@
+{
+    "home": {
+      "title": "Welkom op mijn portfolio",
+      "description": "Ik ben een gepassioneerde ontwikkelaar die zich richt op het creëren van moderne webervaringen. Met solide ervaring in React, TypeScript en backendtechnologieën zoals NestJS en MySQL, streef ik ernaar intuïtieve, performante en onderhoudbare interfaces te bouwen. Mijn doel is om oplossingen te ontwerpen die prestaties, esthetiek en toegankelijkheid combineren voor de best mogelijke gebruikerservaring.",
+      "downloadFr": "Download CV - Frans",
+      "downloadEn": "Download CV - Engels"
+    },
+    "contact": {
+      "title": "Neem contact met mij op"
+    },
+    "navbar": {
+      "home": "Home",
+      "projects": "Projecten en werkervaring",
+      "skills": "Vaardigheden",
+      "diplomas": "Diploma's",
+      "drawings": "Mijn Tekeningen",
+      "contact": "Contact"
+    },
+    "skills": {
+      "title": "Technische Vaardigheden",
+      "technologies": "Technologieën & Tools",
+      "languages": "Programmeertalen",
+      "personal": "Talen & Interesses",
+      "paragraph": "Ik spreek vloeiend Frans en beheers het Engels goed, vooral ontwikkeld tijdens reizen naar Nederland en Finland. Op de middelbare school heb ik ook wat basis Duits geleerd. Ik hou van tekenen, wat mijn creativiteit voedt en mijn artistieke gevoel in projecten versterkt.",
+      "langDescriptions": {
+        "javascript": "Goede kennis van logica en DOM-gebeurtenissen.",
+        "typescript": "Strikte types en best practices voor React.",
+        "java": "Ervaring met OOP en datastructuren.",
+        "html": "Duidelijke en toegankelijke structuur.",
+        "css": "Responsieve ontwerpen en eenvoudige animaties.",
+        "c": "Basiskennis van geheugen en pointers.",
+        "dart": "Vooral gebruikt met Flutter.",
+        "php": "Server-side datamanipulatie.",
+        "sql": "Complexe queries en databaseontwerp."
+      },
+      "techDescriptions": {
+        "git": "Efficiënte versiecontrole, solo of in teamverband.",
+        "github": "Samenwerking aan projecten.",
+        "gitlab": "CI/CD en codebeheer.",
+        "react": "Componenten, hooks en staatbeheer.",
+        "symfony": "Robuuste MVC-architectuur.",
+        "vs": "Volledige ontwikkelomgeving.",
+        "flutter": "Cross-platform mobiele ontwikkeling."
+      }
+    },
+    "diplomas": {
+      "sectionTitle": "Mijn Diploma's",
+      "bachelor": {
+        "title": "Bachelor in Informatica (lopend)",
+        "description": "Tweede jaar van de Bachelor Informatica, specialisatie Applicatieontwikkeling: webontwikkeling, objectgeoriënteerd programmeren en netwerkbeheer.",
+        "year": "2023 – Heden"
+      },
+      "bac": {
+        "title": "Franse Algemene Baccalaureaat",
+        "description": "Gespecialiseerd in Informatica (NSI) en Wiskunde.",
+        "year": "2023"
+      },
+      "brevet": {
+        "title": "Brevet (Diploma Middelbare School)",
+        "description": "Frans nationaal diploma aan het einde van de middelbare school.",
+        "year": "2020"
+      }
+    },
+    "projects": {
+      "title": "Mijn Projecten & Werkervaring",
+      "projectsTitle": "Projecten",
+      "stack": "Technische stack: ",
+      "portfolio": {
+        "title": "Interactieve Portfolio",
+        "description": "Een intuïtieve en elegante portfolio, ontworpen om het talent van een grafisch ontwerper of designer te benadrukken."
+      },
+      "focusly": {
+        "title": "Focusly",
+        "description": "Een schoolproject voor een taakbeheersite met veel functies."
+      },
+      "postar": {
+        "title": "Post-AR",
+        "description": "Moderne en responsieve interface voor het beheren van ansichtkaarten, ontwikkeld in samenwerking met Erasmus-partnerscholen in Nederland en Spanje."
+      },
+      "cyber": {
+        "title": "Platform voor Cybersecurity Cursussen",
+        "description": "Professioneel project ontwikkeld tijdens een stage in Finland. De site stelt het bedrijf in staat cursussen te maken en te verkopen aan particulieren."
+      },
+      "experiencesTitle": "Werkervaring",
+      "mytilimer": "Zomerbaan: kennismaking met de arbeidswereld, teamwork en naleving van productienormen.",
+      "landscape": {
+        "title": "Stage – Eco-landschapsontwerpbureau",
+        "description": "Kennismaking met landschapssoftware, begrijpen van klantbehoeften en maken van offertes."
+      },
+      "erasmus": {
+        "title": "Stage Webontwikkeling – Bittiguru Oy (Erasmus)",
+        "description": "Stage in webontwikkeling (React en NestJS), als onderdeel van een Erasmus-programma met IUT de Metz (B2 - Informatica, PT RA - FI specialisatie)."
+      }
+    },
+    "drawings": {
+      "title": "Mijn Tekeningen",
+      "referenceLabel": "Referentie:",
+      "toolsLabel": "Tools:",
+      "references": {
+        "chainsawMan": "Chainsaw Man (manga door Tatsuki Fujimoto)",
+        "bleach": "Bleach (manga door Tite Kubo)",
+        "eldenRing": "Elden Ring (videogame)"
+      },
+      "tools": {
+        "pencil": "Papier en grafietpotlood"
+      }
+    }
+  }  

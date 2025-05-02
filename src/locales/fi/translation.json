@@ -1,0 +1,108 @@
+{
+    "home": {
+      "title": "Tervetuloa portfoliooni",
+      "description": "Olen intohimoinen kehittäjä, joka keskittyy nykyaikaisten verkkokokemusten luomiseen. Minulla on vankka kokemus Reactista, TypeScriptistä ja taustateknologioista kuten NestJS ja MySQL. Pyrin rakentamaan intuitiivisia, suorituskykyisiä ja helposti ylläpidettäviä käyttöliittymiä. Tavoitteeni on suunnitella ratkaisuja, jotka yhdistävät suorituskyvyn, esteettisyyden ja saavutettavuuden tarjotakseen parhaan mahdollisen käyttökokemuksen.",
+      "downloadFr": "Lataa CV - Ranska",
+      "downloadEn": "Lataa CV - Englanti"
+    },
+    "contact": {
+      "title": "Ota yhteyttä"
+    },
+    "navbar": {
+      "home": "Etusivu",
+      "projects": "Projektit ja työkokemukset",
+      "skills": "Taidot",
+      "diplomas": "Tutkinnot",
+      "drawings": "Piirustukseni",
+      "contact": "Ota yhteyttä"
+    },
+    "skills": {
+      "title": "Tekniset taidot",
+      "technologies": "Teknologiat ja työkalut",
+      "languages": "Ohjelmointikielet",
+      "personal": "Kielet ja kiinnostuksen kohteet",
+      "paragraph": "Puhun sujuvasti ranskaa ja hallitsen hyvin englantia, erityisesti matkojeni ansiosta Alankomaihin ja Suomeen. Opin myös saksan perusteet lukiossa. Olen intohimoinen piirtämisestä, mikä ruokkii luovuuttani ja rikastuttaa taiteellista herkkyyttäni projekteissani.",
+      "langDescriptions": {
+        "javascript": "Hyvä käsitys logiikasta ja DOM-tapahtumista.",
+        "typescript": "Tiukka tyypitys ja Reactin parhaat käytännöt.",
+        "java": "Kokemusta oliopohjaisesta ohjelmoinnista ja tietorakenteista.",
+        "html": "Selkeä ja saavutettava rakenne.",
+        "css": "Responsiivinen suunnittelu ja yksinkertaiset animaatiot.",
+        "c": "Perusymmärrys muistista ja osoittimista.",
+        "dart": "Pääosin käytössä Flutterin kanssa.",
+        "php": "Palvelinpuolen tietojen käsittely.",
+        "sql": "Monimutkaiset kyselyt ja tietokannan rakenne."
+      },
+      "techDescriptions": {
+        "git": "Tehokas versionhallinta yksin tai tiimissä.",
+        "github": "Yhteistyöhön perustuva projektinhallinta.",
+        "gitlab": "CI/CD ja koodinhallinta.",
+        "react": "Komponentit, hookit ja tilanhallinta.",
+        "symfony": "Vankka MVC-arkkitehtuuri.",
+        "vs": "Täydellinen kehitysympäristö.",
+        "flutter": "Monialustainen mobiilikehitys."
+      }
+    },
+    "diplomas": {
+      "sectionTitle": "Tutkintoni",
+      "bachelor": {
+        "title": "BUT-tutkinto tietojenkäsittelyssä (käynnissä)",
+        "description": "Toinen vuosi tietojenkäsittelyn BUT-tutkinnosta, sovelluskehityksen suuntautumisvaihtoehto: verkkokehitys, oliopohjainen ohjelmointi ja verkonhallinta.",
+        "year": "2023 – Nykyinen"
+      },
+      "bac": {
+        "title": "Ranskan yleinen ylioppilastutkinto",
+        "description": "Erikoistuminen tietojenkäsittelyyn (NSI) ja matematiikkaan.",
+        "year": "2023"
+      },
+      "brevet": {
+        "title": "Brevet (peruskoulun päättötodistus)",
+        "description": "Ranskalainen kansallinen todistus peruskoulun päätteeksi.",
+        "year": "2020"
+      }
+    },
+    "projects": {
+      "title": "Projektit ja työkokemukset",
+      "projectsTitle": "Projektit",
+      "stack": "Teknologiakokonaisuus:",
+      "portfolio": {
+        "title": "Interaktiivinen portfolio",
+        "description": "Intuitiivinen ja tyylikäs portfolio, joka tuo esiin graafisen suunnittelijan tai muotoilijan taidot."
+      },
+      "focusly": {
+        "title": "Focusly",
+        "description": "Kouluprojekti tehtävienhallintasivustosta, jossa on monia ominaisuuksia."
+      },
+      "postar": {
+        "title": "Post-AR",
+        "description": "Moderni ja responsiivinen postikorttien hallintakäyttöliittymä, kehitetty yhteistyössä Erasmus-koulujen kanssa Alankomaissa ja Espanjassa."
+      },
+      "cyber": {
+        "title": "Kyberturvallisuuskursseja tarjoava alusta",
+        "description": "Ammattiprojekti, joka kehitettiin harjoittelun aikana Suomessa. Sivusto mahdollistaa yritykselle kyberturvallisuuskurssien luomisen ja myymisen yksityishenkilöille."
+      },
+      "experiencesTitle": "Työkokemukset",
+      "mytilimer": "Kesätyö: tutustuminen työelämään, tiimityö ja tuotantostandardien noudattaminen.",
+      "landscape": {
+        "title": "Harjoittelu – Ekologisen maisemasuunnittelun toimisto",
+        "description": "Maisemasuunnitteluohjelmiston käyttöönottaminen, asiakkaiden vaatimusten ymmärtäminen ja tarjousten laatiminen."
+      },
+      "erasmus": {
+        "title": "Verkkokehitysharjoittelu – Bittiguru Oy (Erasmus)",
+        "description": "Verkkokehitysharjoittelu (React ja NestJS), Erasmus-ohjelman puitteissa IUT de Metzin kanssa (B2 - Tietojenkäsittely, PT RA - FI)."
+      }
+    },
+    "drawings": {
+      "title": "Piirustukseni",
+      "referenceLabel": "Viite:",
+      "toolsLabel": "Työkalut:",
+      "references": {
+        "chainsawMan": "Chainsaw Man (Tatsuki Fujimoton manga)",
+        "bleach": "Bleach (Tite Kubon manga)",
+        "eldenRing": "Elden Ring (videopeli)"
+      },
+      "tools": {
+        "pencil": "Paperi ja grafiittikynä"
+      }
+    }
+  }  

@@ -1,0 +1,108 @@
+{
+    "home": {
+      "title": "Witamy w moim portfolio",
+      "description": "Jestem pasjonatem programowania, skupionym na tworzeniu nowoczesnych doświadczeń internetowych. Dzięki solidnemu doświadczeniu w React, TypeScript oraz technologiach backendowych takich jak NestJS i MySQL, dążę do budowania intuicyjnych, wydajnych i łatwych w utrzymaniu interfejsów. Moim celem jest projektowanie rozwiązań łączących wydajność, estetykę i dostępność, aby zapewnić jak najlepsze doświadczenie użytkownika.",
+      "downloadFr": "Pobierz CV - Francuski",
+      "downloadEn": "Pobierz CV - Angielski"
+    },
+    "contact": {
+      "title": "Skontaktuj się ze mną"
+    },
+    "navbar": {
+      "home": "Strona główna",
+      "projects": "Projekty i doświadczenia zawodowe",
+      "skills": "Umiejętności",
+      "diplomas": "Dyplomy",
+      "drawings": "Moje rysunki",
+      "contact": "Skontaktuj się ze mną"
+    },
+    "skills": {
+      "title": "Umiejętności techniczne",
+      "technologies": "Technologie i narzędzia",
+      "languages": "Języki programowania",
+      "personal": "Języki i zainteresowania",
+      "paragraph": "Biegle posługuję się językiem francuskim i dobrze znam angielski, zwłaszcza dzięki podróżom do Holandii i Finlandii. W liceum nauczyłem się również podstaw języka niemieckiego. Pasjonuję się rysowaniem, co rozwija moją kreatywność i wzbogaca wrażliwość artystyczną w moich projektach.",
+      "langDescriptions": {
+        "javascript": "Dobre zrozumienie logiki i zdarzeń DOM.",
+        "typescript": "Ścisłe typowanie i najlepsze praktyki React.",
+        "java": "Doświadczenie w OOP i strukturach danych.",
+        "html": "Przejrzysta i dostępna struktura.",
+        "css": "Responsywny design i proste animacje.",
+        "c": "Podstawowe zrozumienie pamięci i wskaźników.",
+        "dart": "Głównie używany z Flutter.",
+        "php": "Manipulacja danymi po stronie serwera.",
+        "sql": "Złożone zapytania i strukturyzacja bazy danych."
+      },
+      "techDescriptions": {
+        "git": "Efektywne wersjonowanie solo lub w zespole.",
+        "github": "Zarządzanie projektami zespołowymi.",
+        "gitlab": "CI/CD i zarządzanie kodem.",
+        "react": "Komponenty, hooki i obsługa stanu.",
+        "symfony": "Solidna architektura MVC.",
+        "vs": "Kompleksowe środowisko programistyczne.",
+        "flutter": "Rozwój aplikacji mobilnych wieloplatformowych."
+      }
+    },
+    "diplomas": {
+      "sectionTitle": "Moje dyplomy",
+      "bachelor": {
+        "title": "BUT z informatyki (w trakcie)",
+        "description": "Drugi rok BUT z informatyki, ścieżka rozwoju aplikacji: rozwój stron internetowych, programowanie obiektowe i administracja sieci.",
+        "year": "2023 – Obecnie"
+      },
+      "bac": {
+        "title": "Francuska matura ogólna",
+        "description": "Specjalizacja w informatyce (NSI) i matematyce.",
+        "year": "2023"
+      },
+      "brevet": {
+        "title": "Brevet (dyplom szkoły średniej)",
+        "description": "Francuski dyplom narodowy przyznawany na zakończenie szkoły średniej.",
+        "year": "2020"
+      }
+    },
+    "projects": {
+      "title": "Moje projekty i doświadczenia zawodowe",
+      "projectsTitle": "Projekty",
+      "stack": "Stos technologiczny: ",
+      "portfolio": {
+        "title": "Interaktywne portfolio",
+        "description": "Intuicyjne i eleganckie portfolio, zaprojektowane w celu podkreślenia talentu grafika lub projektanta."
+      },
+      "focusly": {
+        "title": "Focusly",
+        "description": "Projekt szkolny dotyczący strony do zarządzania zadaniami z wieloma funkcjami."
+      },
+      "postar": {
+        "title": "Post-AR",
+        "description": "Nowoczesny i responsywny interfejs zarządzania pocztówkami, opracowany we współpracy ze szkołami partnerskimi Erasmus w Holandii i Hiszpanii."
+      },
+      "cyber": {
+        "title": "Platforma kursów cyberbezpieczeństwa",
+        "description": "Projekt zawodowy opracowany podczas stażu w Finlandii. Strona umożliwia firmie tworzenie i sprzedaż kursów z zakresu cyberbezpieczeństwa dla osób indywidualnych."
+      },
+      "experiencesTitle": "Doświadczenia zawodowe",
+      "mytilimer": "Praca wakacyjna: poznanie świata zawodowego, praca zespołowa i przestrzeganie norm produkcyjnych.",
+      "landscape": {
+        "title": "Staż – biuro projektowe ekolandscapingu",
+        "description": "Wprowadzenie do oprogramowania do projektowania krajobrazu, zrozumienie wymagań klientów i tworzenie wycen."
+      },
+      "erasmus": {
+        "title": "Staż z zakresu rozwoju stron internetowych – Bittiguru Oy (Erasmus)",
+        "description": "Staż z zakresu rozwoju stron internetowych (React i NestJS), w ramach programu Erasmus z IUT de Metz (B2 - Informatyka, ścieżka PT RA - FI)."
+      }
+    },
+    "drawings": {
+      "title": "Moje rysunki",
+      "referenceLabel": "Odniesienie:",
+      "toolsLabel": "Narzędzia:",
+      "references": {
+        "chainsawMan": "Chainsaw Man (manga autorstwa Tatsuki Fujimoto)",
+        "bleach": "Bleach (manga autorstwa Tite Kubo)",
+        "eldenRing": "Elden Ring (gra wideo)"
+      },
+      "tools": {
+        "pencil": "Papier i ołówek grafitowy"
+      }
+    }
+  }  

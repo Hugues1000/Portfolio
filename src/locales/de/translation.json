@@ -1,0 +1,108 @@
+{
+    "home": {
+      "title": "Willkommen in meinem Portfolio",
+      "description": "Ich bin ein leidenschaftlicher Entwickler, der sich auf die Erstellung moderner Web-Erlebnisse konzentriert. Mit solider Erfahrung in React, TypeScript und Backend-Technologien wie NestJS und MySQL strebe ich danach, intuitive, leistungsfähige und wartbare Benutzeroberflächen zu entwickeln. Mein Ziel ist es, Lösungen zu entwerfen, die Leistung, Ästhetik und Barrierefreiheit kombinieren, um die bestmögliche Benutzererfahrung zu bieten.",
+      "downloadFr": "Lebenslauf herunterladen - Französisch",
+      "downloadEn": "Lebenslauf herunterladen - Englisch"
+    },
+    "contact": {
+      "title": "Kontaktiere mich"
+    },
+    "navbar": {
+      "home": "Startseite",
+      "projects": "Projekte und Berufserfahrungen",
+      "skills": "Fähigkeiten",
+      "diplomas": "Abschlüsse",
+      "drawings": "Meine Zeichnungen",
+      "contact": "Kontaktiere mich"
+    },
+    "skills": {
+      "title": "Technische Fähigkeiten",
+      "technologies": "Technologien & Werkzeuge",
+      "languages": "Programmiersprachen",
+      "personal": "Sprachen & Interessen",
+      "paragraph": "Ich spreche fließend Französisch und beherrsche Englisch gut, insbesondere durch Reisen in die Niederlande und nach Finnland. Außerdem habe ich in der Schule einige Grundkenntnisse in Deutsch erworben. Ich begeistere mich für das Zeichnen – eine Praxis, die meine Kreativität fördert und meine künstlerische Sensibilität in Projekten bereichert.",
+      "langDescriptions": {
+        "javascript": "Gutes Verständnis von Logik und DOM-Ereignissen.",
+        "typescript": "Strikte Typisierung und Best Practices mit React.",
+        "java": "Erfahrung mit OOP und Datenstrukturen.",
+        "html": "Klarer und zugänglicher Aufbau.",
+        "css": "Responsives Design und einfache Animationen.",
+        "c": "Grundlegendes Verständnis von Speicher und Zeigern.",
+        "dart": "Hauptsächlich mit Flutter verwendet.",
+        "php": "Serverseitige Datenverarbeitung.",
+        "sql": "Komplexe Abfragen und Datenbankstrukturierung."
+      },
+      "techDescriptions": {
+        "git": "Effiziente Versionskontrolle allein oder im Team.",
+        "github": "Kollaboratives Projektmanagement.",
+        "gitlab": "CI/CD und Code-Verwaltung.",
+        "react": "Komponenten, Hooks und Zustandsverwaltung.",
+        "symfony": "Robuste MVC-Architektur.",
+        "vs": "Vollständige Entwicklungsumgebung.",
+        "flutter": "Plattformübergreifende App-Entwicklung."
+      }
+    },
+    "diplomas": {
+      "sectionTitle": "Meine Abschlüsse",
+      "bachelor": {
+        "title": "BUT in Informatik (laufend)",
+        "description": "Zweites Jahr des BUT-Studiengangs in Informatik, Schwerpunkt Anwendungsentwicklung: Webentwicklung, objektorientierte Programmierung und Netzwerktechnik.",
+        "year": "2023 – Heute"
+      },
+      "bac": {
+        "title": "Allgemeines französisches Abitur",
+        "description": "Schwerpunkt Informatik (NSI) und Mathematik.",
+        "year": "2023"
+      },
+      "brevet": {
+        "title": "Brevet (Mittelschulabschluss)",
+        "description": "Französisches nationales Diplom am Ende der Sekundarstufe I.",
+        "year": "2020"
+      }
+    },
+    "projects": {
+      "title": "Meine Projekte & Berufserfahrungen",
+      "projectsTitle": "Projekte",
+      "stack": "Technologiestack: ",
+      "portfolio": {
+        "title": "Interaktives Portfolio",
+        "description": "Ein intuitives und elegantes Portfolio, das darauf ausgelegt ist, das Talent eines Designers oder Grafikers hervorzuheben."
+      },
+      "focusly": {
+        "title": "Focusly",
+        "description": "Ein Schulprojekt für eine Aufgabenverwaltungsseite mit vielen Funktionen."
+      },
+      "postar": {
+        "title": "Post-AR",
+        "description": "Moderne und reaktionsfähige Oberfläche zur Postkartenverwaltung, entwickelt in Zusammenarbeit mit Erasmus-Partnerschulen in den Niederlanden und Spanien."
+      },
+      "cyber": {
+        "title": "Plattform für Cybersecurity-Kurse",
+        "description": "Berufliches Projekt während eines Praktikums in Finnland entwickelt. Die Seite ermöglicht es dem Unternehmen, Cybersecurity-Kurse für Privatpersonen zu erstellen und zu verkaufen."
+      },
+      "experiencesTitle": "Berufserfahrungen",
+      "mytilimer": "Sommerjob: Kennenlernen der Berufswelt, Teamarbeit und Einhaltung von Produktionsstandards.",
+      "landscape": {
+        "title": "Praktikum – Büro für ökologische Landschaftsplanung",
+        "description": "Einführung in Landschaftssoftware, Verständnis der Kundenanforderungen und Erstellung von Kostenvoranschlägen."
+      },
+      "erasmus": {
+        "title": "Webentwicklungspraktikum – Bittiguru Oy (Erasmus)",
+        "description": "Praktikum in Webentwicklung (React und NestJS) im Rahmen eines Erasmus-Programms mit der IUT de Metz (B2 - Informatik, PT RA - FI)."
+      }
+    },
+    "drawings": {
+      "title": "Meine Zeichnungen",
+      "referenceLabel": "Referenz:",
+      "toolsLabel": "Werkzeuge:",
+      "references": {
+        "chainsawMan": "Chainsaw Man (Manga von Tatsuki Fujimoto)",
+        "bleach": "Bleach (Manga von Tite Kubo)",
+        "eldenRing": "Elden Ring (Videospiel)"
+      },
+      "tools": {
+        "pencil": "Papier und Bleistift"
+      }
+    }
+  }  

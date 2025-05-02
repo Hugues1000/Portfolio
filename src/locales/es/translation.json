@@ -1,0 +1,108 @@
+{
+    "home": {
+      "title": "Bienvenido a mi portafolio",
+      "description": "Soy un desarrollador apasionado enfocado en crear experiencias web modernas. Con una sólida experiencia en React, TypeScript y tecnologías backend como NestJS y MySQL, me esfuerzo por construir interfaces intuitivas, eficientes y mantenibles. Mi objetivo es diseñar soluciones que combinen rendimiento, estética y accesibilidad para ofrecer la mejor experiencia de usuario posible.",
+      "downloadFr": "Descargar CV - Francés",
+      "downloadEn": "Descargar CV - Inglés"
+    },
+    "contact": {
+      "title": "Contáctame"
+    },
+    "navbar": {
+      "home": "Inicio",
+      "projects": "Proyectos y experiencias profesionales",
+      "skills": "Habilidades",
+      "diplomas": "Títulos",
+      "drawings": "Mis Dibujos",
+      "contact": "Contáctame"
+    },
+    "skills": {
+      "title": "Habilidades Técnicas",
+      "technologies": "Tecnologías y Herramientas",
+      "languages": "Lenguajes de Programación",
+      "personal": "Idiomas e Intereses",
+      "paragraph": "Hablo francés con fluidez y tengo un buen dominio del inglés, especialmente desarrollado a través de viajes a los Países Bajos y Finlandia. También aprendí algunas bases de alemán en la escuela secundaria. Me apasiona el dibujo, una práctica que nutre mi creatividad y enriquece mi sensibilidad artística en los proyectos.",
+      "langDescriptions": {
+        "javascript": "Buen manejo de la lógica y eventos del DOM.",
+        "typescript": "Tipado estricto y buenas prácticas en React.",
+        "java": "Experiencia con POO y estructuras de datos.",
+        "html": "Estructura clara y accesible.",
+        "css": "Diseño responsive y animaciones simples.",
+        "c": "Comprensión básica de memoria y punteros.",
+        "dart": "Usado principalmente con Flutter.",
+        "php": "Manipulación de datos del lado del servidor.",
+        "sql": "Consultas complejas y estructuración de bases de datos."
+      },
+      "techDescriptions": {
+        "git": "Versionado eficiente en solitario o en equipo.",
+        "github": "Gestión colaborativa de proyectos.",
+        "gitlab": "CI/CD y gestión de código.",
+        "react": "Componentes, hooks y manejo de estado.",
+        "symfony": "Arquitectura MVC robusta.",
+        "vs": "Entorno de desarrollo completo.",
+        "flutter": "Desarrollo móvil multiplataforma."
+      }
+    },
+    "diplomas": {
+      "sectionTitle": "Mis Títulos",
+      "bachelor": {
+        "title": "BUT en Informática (en curso)",
+        "description": "Segundo año del BUT en Informática, itinerario de Desarrollo de Aplicaciones: desarrollo web, programación orientada a objetos y administración de redes.",
+        "year": "2023 – Presente"
+      },
+      "bac": {
+        "title": "Bachillerato General Francés",
+        "description": "Especialización en Informática (NSI) y Matemáticas.",
+        "year": "2023"
+      },
+      "brevet": {
+        "title": "Brevet (Diploma de Educación Secundaria)",
+        "description": "Diploma nacional francés otorgado al final de la secundaria básica.",
+        "year": "2020"
+      }
+    },
+    "projects": {
+      "title": "Mis Proyectos y Experiencias Profesionales",
+      "projectsTitle": "Proyectos",
+      "stack": "Stack Tecnológico: ",
+      "portfolio": {
+        "title": "Portafolio Interactivo",
+        "description": "Un portafolio intuitivo y elegante, diseñado para resaltar el talento de un diseñador gráfico o diseñador."
+      },
+      "focusly": {
+        "title": "Focusly",
+        "description": "Proyecto escolar para una página de gestión de tareas con múltiples funcionalidades."
+      },
+      "postar": {
+        "title": "Post-AR",
+        "description": "Interfaz moderna y responsiva para la gestión de postales, desarrollada en colaboración con escuelas socias Erasmus en los Países Bajos y España."
+      },
+      "cyber": {
+        "title": "Plataforma de Cursos de Ciberseguridad",
+        "description": "Proyecto profesional desarrollado durante una pasantía en Finlandia. El sitio permite a la empresa crear y vender cursos de ciberseguridad a particulares."
+      },
+      "experiencesTitle": "Experiencias Profesionales",
+      "mytilimer": "Trabajo de verano: descubrimiento del mundo profesional, trabajo en equipo y cumplimiento de estándares de producción.",
+      "landscape": {
+        "title": "Pasantía – Oficina de diseño paisajístico ecológico",
+        "description": "Introducción a software de paisajismo, comprensión de los requisitos del cliente y elaboración de presupuestos."
+      },
+      "erasmus": {
+        "title": "Pasantía en Desarrollo Web – Bittiguru Oy (Erasmus)",
+        "description": "Pasantía en desarrollo web (React y NestJS), como parte de un programa Erasmus con el IUT de Metz (B2 - Informática, PT RA - FI)."
+      }
+    },
+    "drawings": {
+      "title": "Mis Dibujos",
+      "referenceLabel": "Referencia:",
+      "toolsLabel": "Herramientas:",
+      "references": {
+        "chainsawMan": "Chainsaw Man (manga de Tatsuki Fujimoto)",
+        "bleach": "Bleach (manga de Tite Kubo)",
+        "eldenRing": "Elden Ring (videojuego)"
+      },
+      "tools": {
+        "pencil": "Papel y lápiz de grafito"
+      }
+    }
+  }  
