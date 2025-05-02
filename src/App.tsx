@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Diplomas from "./pages/Diplomas";
+import ProjectsExperiences from "./pages/ProjectsExperiences";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/projects" element={<h1>Projects Page</h1>} />
+        <Route path="/projectsExperiences" element={<ProjectsExperiences />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/diplomas" element={<Diplomas />} />
         <Route path="/drawings" element={<h1>Drawings Page</h1>} />

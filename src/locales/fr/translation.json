@@ -1,63 +1,93 @@
 {
-    "home": {
-      "title": "Bienvenue sur mon portfolio",
-      "description": "Je suis un développeur passionné par la création d’expériences web modernes. Avec une solide expérience en React, TypeScript, et les technologies backend comme NestJS et MySQL, je m'efforce de construire des interfaces intuitives, performantes et maintenables. Mon objectif est de concevoir des solutions qui combinent performance, esthétique et accessibilité pour offrir la meilleure expérience utilisateur possible."
-    },
-    "contact": {
-      "title": "Me contacter"
-    },
-    "navbar": {
-      "home": "Accueil",
-      "projects": "Mes Projets",
-      "skills": "Mes Compétences",
-      "diplomas": "Mes Diplômes",
-      "drawings": "Mes Dessins",
-      "contact": "Contact"
-    },
-    "skills": {
+  "home": {
+    "title": "Bienvenue sur mon portfolio",
+    "description": "Je suis un développeur passionné, axé sur la création d'expériences web modernes. Avec une solide expérience en React, TypeScript et des technologies backend comme NestJS et MySQL, je m'efforce de créer des interfaces intuitives, performantes et maintenables. Mon objectif est de concevoir des solutions qui allient performance, esthétique et accessibilité pour offrir la meilleure expérience utilisateur possible."
+  },
+  "contact": {
+    "title": "Contactez-moi"
+  },
+  "navbar": {
+    "home": "Accueil",
+    "projects": "Projets et expériences professionnelles",
+    "skills": "Compétences",
+    "diplomas": "Diplômes",
+    "drawings": "Mes Dessins",
+    "contact": "Contactez-moi"
+  },
+  "skills": {
     "title": "Compétences Techniques",
     "technologies": "Technologies & Outils",
-    "languages": "Langages de Programmation",
-    "personal": "Langues & Centres d’intérêt",
-    "paragraph": "Je parle couramment français et j’ai les bases de la communication en anglais, développées notamment grâce à des voyages aux Pays-Bas et en Finlande. J’ai appris certaines bases de l’allemand en deuxième langue au lycée, et je suis également passionné par le dessin, une pratique qui nourrit ma créativité et enrichit ma sensibilité artistique dans mes projets.",
+    "languages": "Langages de programmation",
+    "personal": "Langues & Centres d'intérêt",
+    "paragraph": "Je parle couramment français et maîtrise bien l'anglais, en particulier développé à travers des voyages aux Pays-Bas et en Finlande. J'ai aussi appris les bases de l'allemand au lycée. Je suis passionné de dessin, une pratique qui nourrit ma créativité et enrichit ma sensibilité artistique dans mes projets.",
     "langDescriptions": {
-      "javascript": "Bonne maîtrise de la logique et des DOM Events.",
-      "typescript": "Typage strict et bonnes pratiques en React.",
-      "java": "Expérience avec la POO et les structures.",
+      "javascript": "Bonne maîtrise de la logique et des événements DOM.",
+      "typescript": "Typage strict et meilleures pratiques React.",
+      "java": "Expérience avec la POO et les structures de données.",
       "html": "Structure claire et accessible.",
       "css": "Design responsive et animations simples.",
-      "c": "Connaissances de base sur la mémoire et les pointeurs.",
-      "dart": "Utilisé principalement avec Flutter.",
-      "php": "Manipulation de données côté serveur.",
-      "sql": "Requêtes complexes et structuration de bases."
+      "c": "Compréhension de base de la mémoire et des pointeurs.",
+      "dart": "Principalement utilisé avec Flutter.",
+      "php": "Manipulation des données côté serveur.",
+      "sql": "Requêtes complexes et structuration des bases de données."
     },
     "techDescriptions": {
-      "git": "Versioning efficace en solo et en équipe.",
-      "github": "Gestion de projets collaboratifs.",
-      "gitlab": "CI/CD et gestion de code.",
-      "react": "Composants, hooks et gestion d’état.",
+      "git": "Versionnage efficace en solo ou en équipe.",
+      "github": "Gestion de projet collaborative.",
+      "gitlab": "CI/CD et gestion du code.",
+      "react": "Composants, hooks et gestion d'état.",
       "symfony": "Architecture MVC robuste.",
       "vs": "Environnement de développement complet.",
       "flutter": "Développement mobile multiplateforme."
-    },
-    "diplomas": {
+    }
+  },
+  "diplomas": {
     "sectionTitle": "Mes Diplômes",
     "bachelor": {
-      "title": "BUT Informatique (en cours)",
-      "description": "Deuxième année du BUT Informatique, parcours Réalisation d’applications : développement web, orienté objet et administration réseau.",
-      "year": "2023 – Aujourd’hui"
+      "title": "BUT en Informatique (en cours)",
+      "description": "Deuxième année du BUT en Informatique, parcours Développement d'Applications : développement web, programmation orientée objet, et administration des réseaux.",
+      "year": "2023 – Présent"
     },
     "bac": {
-      "title": "Baccalauréat général",
-      "description": "Spécialités NSI (Numérique et Sciences Informatiques) et Mathématiques.",
+      "title": "Baccalauréat Général Français",
+      "description": "Spécialisé en Informatique (NSI) et Mathématiques.",
       "year": "2023"
     },
     "brevet": {
-      "title": "Brevet des collèges",
-      "description": "Diplôme national du brevet.",
+      "title": "Brevet (Diplôme de Collège)",
+      "description": "Diplôme national français délivré à la fin du collège.",
       "year": "2020"
     }
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "projectsTitle": "Projets",
+    "stack": "Tech Stack : ",
+    "portfolio": {
+      "title": "Portfolio interactif",
+      "description": "Un portfolio intuitif et élégant, conçu pour mettre en valeur le talent d'un graphiste ou d'un designer."
+    },
+    "focusly": {
+      "title": "Focusly",
+      "description": "Un projet scolaire pour un site de gestion de tâches avec de nombreuses fonctionnalités."
+    },
+    "postar": {
+      "title": "Post-AR",
+      "description": "Interface moderne et responsive de gestion de cartes postales, développée en collaboration avec des écoles partenaires Erasmus aux Pays-Bas et en Espagne."
+    },
+    "cyber": {
+      "title": "Plateforme de cours de cybersécurité",
+      "description": "Projet professionnel développé lors d'un stage en Finlande. Le site permet à l'entreprise de créer et vendre des cours de cybersécurité à des particuliers."
+    },
+    "experiencesTitle": "Expériences Professionnelles",
+    "mytilimer": "Job d'été : découverte du monde professionnel, travail en équipe, et respect des normes de production.",
+    "landscape": {
+      "title": "Stage – Bureau d'études en éco-paysagisme",
+      "description": "Introduction aux logiciels de paysagisme, compréhension des besoins des clients et création de devis."
+    },
+    "erasmus": {
+      "title": "Stage en développement web – Bittiguru Oy (Erasmus)",
+      "description": "Stage en développement web (React et NestJS), dans le cadre d'un programme Erasmus avec l'IUT de Metz (B2 - Informatique, PT RA - FI)."
+    }
   }
-  }
-  }
-  
+}

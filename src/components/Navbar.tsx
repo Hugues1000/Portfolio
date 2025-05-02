@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-center">
-          <NavLink to="/projects" className="nav-link">
+          <NavLink to="/projectsExperiences" className="nav-link">
             {t("navbar.projects")}
           </NavLink>
           <NavLink to="/skills" className="nav-link">
@@ -76,7 +76,7 @@ const Navbar = () => {
         <>
           <div className="overlay" onClick={() => setMenuOpen(false)}></div>
           <div className="popup-menu">
-            <NavLink to="/projects" className="nav-link" onClick={() => setMenuOpen(false)}>
+            <NavLink to="/projectsExperiences" className="nav-link" onClick={() => setMenuOpen(false)}>
               {t("navbar.projects")}
             </NavLink>
             <NavLink to="/skills" className="nav-link" onClick={() => setMenuOpen(false)}>
