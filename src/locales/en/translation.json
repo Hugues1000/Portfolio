@@ -91,5 +91,18 @@
       "title": "Web Development Internship – Bittiguru Oy (Erasmus)",
       "description": "Web development internship (React and NestJS), as part of an Erasmus program with IUT de Metz (B2 - Computer Science, PT RA - FI track)."
     }
+  },
+  "drawings": {
+    "title": "My Drawings",
+    "referenceLabel": "Reference:",
+    "toolsLabel": "Tools:",
+    "references": {
+      "chainsawMan": "Chainsaw Man (manga by Tatsuki Fujimoto)",
+      "bleach": "Bleach (manga by Tite Kubo)",
+      "eldenRing": "Elden Ring (video game)"
+    },
+    "tools": {
+      "pencil": "Paper and graphite pencil"
+    }
   }
 }
