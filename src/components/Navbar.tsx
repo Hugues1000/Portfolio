@@ -23,11 +23,17 @@ const Navbar = () => {
       }
     } else {
       setActiveHomeSection(null);
+      window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll en haut pour toutes les autres pages
     }
   }, [location]);
 
   const handleNavClick = (section: "home" | "contact") => {
     navigate(`/home#${section === "home" ? "top" : "contact"}`);
+  };
+
+  const handleLinkClick = (path: string) => {
+    navigate(path);
+    setMenuOpen(false);
   };
 
   return (
@@ -43,16 +49,16 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-center">
-          <NavLink to="/projectsExperiences" className="nav-link">
+          <NavLink to="/projectsExperiences" className="nav-link" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             {t("navbar.projects")}
           </NavLink>
-          <NavLink to="/skills" className="nav-link">
+          <NavLink to="/skills" className="nav-link" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             {t("navbar.skills")}
           </NavLink>
-          <NavLink to="/diplomas" className="nav-link">
+          <NavLink to="/diplomas" className="nav-link" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             {t("navbar.diplomas")}
           </NavLink>
-          <NavLink to="/drawings" className="nav-link">
+          <NavLink to="/drawings" className="nav-link" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             {t("navbar.drawings")}
           </NavLink>
           <a
@@ -76,16 +82,16 @@ const Navbar = () => {
         <>
           <div className="overlay" onClick={() => setMenuOpen(false)}></div>
           <div className="popup-menu">
-            <NavLink to="/projectsExperiences" className="nav-link" onClick={() => setMenuOpen(false)}>
+            <NavLink to="/projectsExperiences" className="nav-link" onClick={() => { handleLinkClick("/projectsExperiences"); }}>
               {t("navbar.projects")}
             </NavLink>
-            <NavLink to="/skills" className="nav-link" onClick={() => setMenuOpen(false)}>
+            <NavLink to="/skills" className="nav-link" onClick={() => { handleLinkClick("/skills"); }}>
               {t("navbar.skills")}
             </NavLink>
-            <NavLink to="/diplomas" className="nav-link" onClick={() => setMenuOpen(false)}>
+            <NavLink to="/diplomas" className="nav-link" onClick={() => { handleLinkClick("/diplomas"); }}>
               {t("navbar.diplomas")}
             </NavLink>
-            <NavLink to="/drawings" className="nav-link" onClick={() => setMenuOpen(false)}>
+            <NavLink to="/drawings" className="nav-link" onClick={() => { handleLinkClick("/drawings"); }}>
               {t("navbar.drawings")}
             </NavLink>
             <a
