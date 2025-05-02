@@ -23,10 +23,10 @@ const ProjectsExperiences = () => {
               </p>
               <div className="project-links">
                 <a href="https://github.com/Sihtta/portfolio" target="_blank" rel="noopener noreferrer">
-                  <FaGithub /> GitHub
+                  <FaGithub />
                 </a>
                 <a href="https://portfolio-designer.vercel.app" target="_blank" rel="noopener noreferrer">
-                  <FaExternalLinkAlt /> {t("projects.view")}
+                  <FaExternalLinkAlt />
                 </a>
               </div>
             </div>
@@ -40,10 +40,10 @@ const ProjectsExperiences = () => {
               </p>
               <div className="project-links">
                 <a href="https://github.com/Sihtta/archiLog" target="_blank" rel="noopener noreferrer">
-                  <FaGithub /> GitHub
+                  <FaGithub />
                 </a>
                 <a href="https://focusly.vercel.app" target="_blank" rel="noopener noreferrer">
-                  <FaExternalLinkAlt /> {t("projects.view")}
+                  <FaExternalLinkAlt />
                 </a>
               </div>
             </div>
@@ -57,15 +57,15 @@ const ProjectsExperiences = () => {
               </p>
               <div className="project-links">
                 <a href="https://github.com/Sihtta/Post-AR" target="_blank" rel="noopener noreferrer">
-                  <FaGithub /> GitHub
+                  <FaGithub />
                 </a>
                 <a href="https://postar.vercel.app" target="_blank" rel="noopener noreferrer">
-                  <FaExternalLinkAlt /> {t("projects.view")}
+                  <FaExternalLinkAlt />
                 </a>
               </div>
             </div>
 
-            {/*Bittiguru*/}
+            {/* Bittiguru */}
             <div className="skill-card">
               <h4 className="skill-name">{t("projects.cyber.title")}</h4>
               <p className="skill-description">{t("projects.cyber.description")}</p>
