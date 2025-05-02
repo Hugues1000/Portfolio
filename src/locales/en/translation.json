@@ -8,10 +8,55 @@
     },
     "navbar": {
       "home": "Home",
-      "projects": "My Projects",
-      "skills": "My Skills",
-      "diplomas": "My Diplomas",
+      "projects": "Projects and professional experiences",
+      "skills": "Skills",
+      "diplomas": "Diplomas",
       "drawings": "My Drawings",
       "contact": "Contact Me"
+    },
+    "skills": {
+    "title": "Technical Skills",
+    "technologies": "Technologies & Tools",
+    "languages": "Programming Languages",
+    "personal": "Languages & Interests",
+    "paragraph": "I speak French fluently and have a good command of English, especially developed through travels in the Netherlands and Finland. I also learned some basics of German in high school. I'm passionate about drawing, a practice that nurtures my creativity and enriches my artistic sensitivity in my projects.",
+    "langDescriptions": {
+      "javascript": "Good grasp of logic and DOM events.",
+      "typescript": "Strict typing and React best practices.",
+      "java": "Experience with OOP and data structures.",
+      "html": "Clear and accessible structure.",
+      "css": "Responsive design and simple animations.",
+      "c": "Basic understanding of memory and pointers.",
+      "dart": "Mainly used with Flutter.",
+      "php": "Server-side data manipulation.",
+      "sql": "Complex queries and database structuring."
+    },
+    "techDescriptions": {
+      "git": "Efficient versioning solo or in teams.",
+      "github": "Collaborative project management.",
+      "gitlab": "CI/CD and code management.",
+      "react": "Components, hooks and state handling.",
+      "symfony": "Robust MVC architecture.",
+      "vs": "Complete development environment.",
+      "flutter": "Cross-platform mobile development."
+    },
+    "diplomas": {
+    "sectionTitle": "My Diplomas",
+    "bachelor": {
+      "title": "BUT in Computer Science (ongoing)",
+      "description": "Second year of the BUT in Computer Science, Application Development track: web development, object-oriented programming, and network administration.",
+      "year": "2023 – Present"
+    },
+    "bac": {
+      "title": "General Baccalaureate",
+      "description": "Specialized in Computer Science (NSI) and Mathematics.",
+      "year": "2023"
+    },
+    "brevet": {
+      "title": "Brevet (Middle School Diploma)",
+      "description": "French national diploma awarded at the end of middle school.",
+      "year": "2020"
     }
+  }
+  }
   }  

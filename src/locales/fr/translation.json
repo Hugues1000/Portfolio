@@ -13,6 +13,51 @@
       "diplomas": "Mes Diplômes",
       "drawings": "Mes Dessins",
       "contact": "Contact"
+    },
+    "skills": {
+    "title": "Compétences Techniques",
+    "technologies": "Technologies & Outils",
+    "languages": "Langages de Programmation",
+    "personal": "Langues & Centres d’intérêt",
+    "paragraph": "Je parle couramment français et j’ai les bases de la communication en anglais, développées notamment grâce à des voyages aux Pays-Bas et en Finlande. J’ai appris certaines bases de l’allemand en deuxième langue au lycée, et je suis également passionné par le dessin, une pratique qui nourrit ma créativité et enrichit ma sensibilité artistique dans mes projets.",
+    "langDescriptions": {
+      "javascript": "Bonne maîtrise de la logique et des DOM Events.",
+      "typescript": "Typage strict et bonnes pratiques en React.",
+      "java": "Expérience avec la POO et les structures.",
+      "html": "Structure claire et accessible.",
+      "css": "Design responsive et animations simples.",
+      "c": "Connaissances de base sur la mémoire et les pointeurs.",
+      "dart": "Utilisé principalement avec Flutter.",
+      "php": "Manipulation de données côté serveur.",
+      "sql": "Requêtes complexes et structuration de bases."
+    },
+    "techDescriptions": {
+      "git": "Versioning efficace en solo et en équipe.",
+      "github": "Gestion de projets collaboratifs.",
+      "gitlab": "CI/CD et gestion de code.",
+      "react": "Composants, hooks et gestion d’état.",
+      "symfony": "Architecture MVC robuste.",
+      "vs": "Environnement de développement complet.",
+      "flutter": "Développement mobile multiplateforme."
+    },
+    "diplomas": {
+    "sectionTitle": "Mes Diplômes",
+    "bachelor": {
+      "title": "BUT Informatique (en cours)",
+      "description": "Deuxième année du BUT Informatique, parcours Réalisation d’applications : développement web, orienté objet et administration réseau.",
+      "year": "2023 – Aujourd’hui"
+    },
+    "bac": {
+      "title": "Baccalauréat général",
+      "description": "Spécialités NSI (Numérique et Sciences Informatiques) et Mathématiques.",
+      "year": "2023"
+    },
+    "brevet": {
+      "title": "Brevet des collèges",
+      "description": "Diplôme national du brevet.",
+      "year": "2020"
     }
+  }
+  }
   }
   

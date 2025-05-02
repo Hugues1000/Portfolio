@@ -50,7 +50,7 @@ const Home = () => {
         <div className="contact-info">
           <div className="contact-item">
             <FaEnvelope className="contact-icon" />
-            <span>hugues.porchet@orange.fr</span>
+            <span>huguesporchet@gmail.com</span>
           </div>
           <div className="contact-item">
             <FaPhone className="contact-icon" />
@@ -58,7 +58,7 @@ const Home = () => {
           </div>
           <div className="contact-item">
             <FaDiscord className="contact-icon" />
-            <span>jeanbon9934</span>
+            <span>hugokiwi4591</span>
           </div>
         </div>
       </section>
