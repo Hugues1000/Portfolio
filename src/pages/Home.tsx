@@ -41,6 +41,16 @@ const Home = () => {
                 <FaLinkedin />
               </a>
             </div>
+
+            {/* Boutons de téléchargement */}
+            <div className="cv-buttons">
+              <a href="/assets/cv/cvFr.pdf" download className="cv-button">
+                {t('home.downloadFr')}
+              </a>
+              <a href="/assets/cv/cvEn.pdf" download className="cv-button">
+                {t('home.downloadEn')}
+              </a>
+            </div>
           </div>
         </div>
       </section>

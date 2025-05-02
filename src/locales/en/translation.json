@@ -1,7 +1,9 @@
 {
   "home": {
     "title": "Welcome to my portfolio",
-    "description": "I am a passionate developer focused on creating modern web experiences. With solid experience in React, TypeScript, and backend technologies like NestJS and MySQL, I strive to build intuitive, performant, and maintainable interfaces. My goal is to design solutions that combine performance, aesthetics, and accessibility to deliver the best possible user experience."
+    "description": "I am a passionate developer focused on creating modern web experiences. With solid experience in React, TypeScript, and backend technologies like NestJS and MySQL, I strive to build intuitive, performant, and maintainable interfaces. My goal is to design solutions that combine performance, aesthetics, and accessibility to deliver the best possible user experience.",
+    "downloadFr": "Download CV - French",
+    "downloadEn": "Download CV - English"
   },
   "contact": {
     "title": "Contact Me"

@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 6rem;
   flex-wrap: wrap;
   max-width: 1200px;
   width: 100%;
@@ -30,10 +30,10 @@
 }
 
 .home-image {
-  width: clamp(120px, 18vw, 180px);
+  width: clamp(150px, 22vw, 220px);
   height: auto;
   border-radius: 50%;
-  border: 3px solid #ffaa4d;
+  border: 4px solid #ffaa4d;
 }
 
 .home-text {
@@ -129,4 +129,29 @@
 .contact-icon {
   color: #ffaa4d;
   font-size: 1.5rem;
+}
+
+.cv-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.cv-button {
+  padding: 1rem 2rem;
+  background-color: #ffaa4d;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cv-button:hover {
+  transform: scale(1.1);
+  background-color: #e68a00;
 }
