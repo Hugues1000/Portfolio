@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "Welcome to my portfolio",
-    "description": "I am a passionate developer focused on creating modern web experiences. With solid experience in React, TypeScript, and backend technologies like NestJS and MySQL, I strive to build intuitive, performant, and maintainable interfaces. My goal is to design solutions that combine performance, aesthetics, and accessibility to deliver the best possible user experience.",
+    "description": "I am a development student at the University of Lorraine, passionate about creating modern web experiences. With solid proficiency in React, TypeScript, and backend technologies such as NestJS and MySQL, I design intuitive, high-performing, and maintainable interfaces. My goal: to combine performance, aesthetics, and accessibility to provide the best possible user experience. I also have a passion for drawing. You can view some of my work on the dedicated page.",
     "downloadFr": "Download CV - French",
     "downloadEn": "Download CV - English"
   },
@@ -10,9 +10,9 @@
   },
   "navbar": {
     "home": "Home",
-    "projects": "Projects and professional experiences",
+    "projects": "Projects and Professional Experience",
     "skills": "Skills",
-    "diplomas": "Diplomas",
+    "diplomas": "Degrees",
     "drawings": "My Drawings",
     "contact": "Contact Me"
   },
@@ -21,75 +21,75 @@
     "technologies": "Technologies & Tools",
     "languages": "Programming Languages",
     "personal": "Languages & Interests",
-    "paragraph": "I speak French fluently and have a good command of English, especially developed through travels in the Netherlands and Finland. I also learned some basics of German in high school. I'm passionate about drawing, a practice that nurtures my creativity and enriches my artistic sensitivity in my projects.",
+    "paragraph": "I am fluent in French and have a good command of English, which I strengthened through stays in the Netherlands and Finland. I also learned some basic German in high school. Passionate about drawing, this practice fuels my creativity and enhances my artistic sensitivity in my projects.",
     "langDescriptions": {
-      "javascript": "Good grasp of logic and DOM events.",
-      "typescript": "Strict typing and React best practices.",
+      "javascript": "Good understanding of logic and DOM events.",
+      "typescript": "Strict typing and best practices with React.",
       "java": "Experience with OOP and data structures.",
       "html": "Clear and accessible structure.",
       "css": "Responsive design and simple animations.",
       "c": "Basic understanding of memory and pointers.",
-      "dart": "Mainly used with Flutter.",
-      "php": "Server-side data manipulation.",
+      "dart": "Programming language mainly used with Flutter.",
+      "php": "Server-side data handling.",
       "sql": "Complex queries and database structuring."
     },
     "techDescriptions": {
-      "git": "Efficient versioning solo or in teams.",
+      "git": "Efficient version control solo or in a team.",
       "github": "Collaborative project management.",
       "gitlab": "CI/CD and code management.",
-      "react": "Components, hooks and state handling.",
+      "react": "Components, hooks, and state management.",
       "symfony": "Robust MVC architecture.",
-      "vs": "Complete development environment.",
+      "vs": "Comprehensive development environment.",
       "flutter": "Cross-platform mobile development."
     }
   },
   "diplomas": {
-    "sectionTitle": "My Diplomas",
+    "sectionTitle": "My Degrees",
     "bachelor": {
-      "title": "BUT in Computer Science (ongoing)",
-      "description": "Second year of the BUT in Computer Science, Application Development track: web development, object-oriented programming, and network administration.",
+      "title": "Bachelor of Computer Science (ongoing)",
+      "description": "Second year of the Bachelor's in Computer Science, Application Development track: web development, object-oriented programming, and network administration.",
       "year": "2023 – Present"
     },
     "bac": {
-      "title": "General French Baccalaureate",
-      "description": "Specialized in Computer Science (NSI) and Mathematics.",
+      "title": "French General Baccalaureate",
+      "description": "Majors: Computer Science (NSI) and Mathematics.",
       "year": "2023"
     },
     "brevet": {
-      "title": "Brevet (Middle School Diploma)",
-      "description": "French national diploma awarded at the end of middle school.",
+      "title": "Middle School Diploma",
+      "description": "French national diploma obtained at the end of middle school.",
       "year": "2020"
     }
   },
   "projects": {
-    "title": "My Projects & Professionnal Exepriences",
+    "title": "My Projects & Professional Experience",
     "projectsTitle": "Projects",
     "stack": "Tech Stack: ",
     "portfolio": {
       "title": "Interactive Portfolio",
-      "description": "An intuitive and elegant portfolio, designed to highlight the talent of a graphic designer or designer."
+      "description": "An intuitive and elegant portfolio designed to showcase the work of a graphic designer or artist. The site allows users to comment on, like, and view artworks. Artists can publish and manage their creations, while an admin can manage user accounts and comments."
     },
     "focusly": {
       "title": "Focusly",
-      "description": "A school project for a task management site with many features."
+      "description": "School project: task management site with many features such as task creation and management, work phase initiation, and progress tracking via a growing tree on the homepage."
     },
     "postar": {
       "title": "Post-AR",
-      "description": "Modern and responsive postcard management interface, developed in collaboration with Erasmus partner schools in the Netherlands and Spain."
+      "description": "Modern and responsive interface for managing postcards, developed in partnership with Erasmus schools in the Netherlands and Spain. Only the front-end part is available here."
     },
     "cyber": {
       "title": "Cybersecurity Course Platform",
-      "description": "Professional project developed during an internship in Finland. The site allows the company to create and sell cybersecurity courses to individuals."
+      "description": "Professional project in progress as part of my Erasmus internship in Finland, for the company Bittiguru Oy. The site allows the company to create, manage, and sell cybersecurity courses to individuals."
     },
-    "experiencesTitle": "Professional Experiences",
-    "mytilimer": "Summer job: discovery of the professional world, teamwork, and compliance with production standards.",
+    "experiencesTitle": "Professional Experience",
+    "mytilimer": "Summer job: immersion in the professional world, teamwork, and compliance with production standards.",
     "landscape": {
-      "title": "Internship – Eco-landscaping design office",
-      "description": "Introduction to landscaping software, understanding client requirements, and creating quotes."
+      "title": "Internship – Eco-landscaping Design Office",
+      "description": "Learning about landscaping software, understanding client needs, and drafting quotes."
     },
     "erasmus": {
       "title": "Web Development Internship – Bittiguru Oy (Erasmus)",
-      "description": "Web development internship (React and NestJS), as part of an Erasmus program with IUT de Metz (B2 - Computer Science, PT RA - FI track)."
+      "description": "Web development internship (React and NestJS), as part of an Erasmus program with the IUT of Metz (B2 - Computer Science, PT RA - FI track)."
     }
   },
   "drawings": {

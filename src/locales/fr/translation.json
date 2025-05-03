@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "Bienvenue sur mon portfolio",
-    "description": "Je suis un développeur passionné, axé sur la création d'expériences web modernes. Avec une solide expérience en React, TypeScript et des technologies backend comme NestJS et MySQL, je m'efforce de construire des interfaces intuitives, performantes et maintenables. Mon objectif est de concevoir des solutions alliant performance, esthétique et accessibilité pour offrir la meilleure expérience utilisateur possible.",
+    "description": "Je suis un étudiant en développement à l'Université de Lorraine, passionné par la création d'expériences web modernes. Fort d'une bonne maîtrise de React, TypeScript et de technologies backend comme NestJS et MySQL, je conçois des interfaces intuitives, performantes et maintenables. Mon objectif : allier performance, esthétique et accessibilité pour offrir la meilleure expérience utilisateur possible. J'ai également une passion : le dessin. Vous pouvez consulter quelques-unes de mes œuvres dans la page qui y est dédiée.",
     "downloadFr": "Télécharger le CV - Français",
     "downloadEn": "Télécharger le CV - Anglais"
   },
@@ -21,7 +21,7 @@
     "technologies": "Technologies & Outils",
     "languages": "Langages de Programmation",
     "personal": "Langues & Centres d'intérêt",
-    "paragraph": "Je parle couramment le français et j'ai une bonne maîtrise de l'anglais, développée notamment lors de voyages aux Pays-Bas et en Finlande. J'ai également appris quelques bases d'allemand au lycée. Je suis passionné de dessin, une pratique qui nourrit ma créativité et enrichit ma sensibilité artistique dans mes projets.",
+    "paragraph": "Je parle couramment le français et j'ai une bonne maîtrise de l'anglais, que j’ai renforcée grâce à des séjours aux Pays-Bas et en Finlande. J’ai aussi appris quelques notions d’allemand au lycée. Passionné de dessin, cette pratique nourrit ma créativité et enrichit ma sensibilité artistique dans mes projets.",
     "langDescriptions": {
       "javascript": "Bonne compréhension de la logique et des événements DOM.",
       "typescript": "Typage strict et bonnes pratiques avec React.",
@@ -29,7 +29,7 @@
       "html": "Structure claire et accessible.",
       "css": "Design responsive et animations simples.",
       "c": "Compréhension de base de la mémoire et des pointeurs.",
-      "dart": "Principalement utilisé avec Flutter.",
+      "dart": "Langage de programmation principalement utilisé avec Flutter.",
       "php": "Manipulation de données côté serveur.",
       "sql": "Requêtes complexes et structuration de bases de données."
     },
@@ -67,29 +67,29 @@
     "stack": "Stack Technique : ",
     "portfolio": {
       "title": "Portfolio Interactif",
-      "description": "Un portfolio intuitif et élégant, conçu pour mettre en valeur le talent d'un graphiste ou designer."
+      "description": "Un portfolio intuitif et élégant, pensé pour valoriser le travail d’un graphiste ou designer. Ce site permet aux utilisateurs de commenter, liker et consulter les œuvres. Les artistes peuvent publier et gérer leurs créations, tandis qu’un administrateur peut gérer les comptes utilisateurs et les commentaires."
     },
     "focusly": {
       "title": "Focusly",
-      "description": "Projet scolaire pour un site de gestion de tâches avec de nombreuses fonctionnalités."
+      "description": "Projet scolaire : création d’un site de gestion de tâches avec de nombreuses fonctionnalités, comme la possibilité de créer et gérer ses tâches, de lancer des étapes de travail et de suivre sa progression à l’aide d’un arbre grandissant sur la page d'accueil."
     },
     "postar": {
       "title": "Post-AR",
-      "description": "Interface moderne et responsive de gestion de cartes postales, développée en collaboration avec des écoles partenaires Erasmus aux Pays-Bas et en Espagne."
+      "description": "Interface moderne et responsive pour la gestion de cartes postales, développée en partenariat avec des écoles Erasmus aux Pays-Bas et en Espagne. Seule la partie front-end du projet est disponible ici."
     },
     "cyber": {
       "title": "Plateforme de Cours en Cybersécurité",
-      "description": "Projet professionnel développé lors d'un stage en Finlande. Le site permet à l'entreprise de créer et vendre des cours de cybersécurité aux particuliers."
+      "description": "Projet professionnel en cours de réalisation dans le cadre de mon stage Erasmus en Finlande, pour l'entreprise Bittiguru Oy. Le site permet à l’entreprise de créer, gérer et vendre des cours de cybersécurité à des particuliers."
     },
     "experiencesTitle": "Expériences Professionnelles",
-    "mytilimer": "Job d'été : découverte du monde professionnel, travail en équipe et respect des normes de production.",
+    "mytilimer": "Job d'été : immersion dans le monde professionnel, travail en équipe et respect des normes de production.",
     "landscape": {
       "title": "Stage – Bureau d'études en éco-paysagisme",
-      "description": "Initiation aux logiciels de paysagisme, compréhension des besoins clients et création de devis."
+      "description": "Découverte de logiciels de conception paysagère, compréhension des besoins clients et élaboration de devis."
     },
     "erasmus": {
       "title": "Stage en Développement Web – Bittiguru Oy (Erasmus)",
-      "description": "Stage en développement web (React et NestJS), dans le cadre d'un programme Erasmus avec l'IUT de Metz (B2 - Informatique, parcours PT RA - FI)."
+      "description": "Stage en développement web (React et NestJS), dans le cadre d’un programme Erasmus avec l’IUT de Metz (B2 - Informatique, parcours PT RA - FI)."
     }
   },
   "drawings": {

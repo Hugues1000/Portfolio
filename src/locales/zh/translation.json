@@ -1,108 +1,108 @@
 {
-    "home": {
-      "title": "欢迎来到我的作品集",
-      "description": "我是一名热衷于开发的程序员，专注于创建现代化的网页体验。凭借在 React、TypeScript 和后端技术（如 NestJS 和 MySQL）方面的扎实经验，我致力于构建直观、高效且易于维护的界面。我的目标是设计兼具性能、美感和可访问性的解决方案，提供最佳的用户体验。",
-      "downloadFr": "下载简历 - 法语",
-      "downloadEn": "下载简历 - 英语"
+  "home": {
+    "title": "欢迎来到我的作品集",
+    "description": "我是一名就读于洛林大学的软件开发学生，热衷于创造现代化的网页体验。我精通 React、TypeScript 以及 NestJS 和 MySQL 等后端技术，能够设计直观、高效且易于维护的界面。我的目标是将性能、美观与可访问性结合，带来最佳的用户体验。我还有一个爱好：绘画。您可以在专门的页面上查看我部分作品。",
+    "downloadFr": "下载简历 - 法语",
+    "downloadEn": "下载简历 - 英语"
+  },
+  "contact": {
+    "title": "联系我"
+  },
+  "navbar": {
+    "home": "主页",
+    "projects": "项目与工作经验",
+    "skills": "技能",
+    "diplomas": "学历",
+    "drawings": "我的绘画作品",
+    "contact": "联系我"
+  },
+  "skills": {
+    "title": "技术技能",
+    "technologies": "技术与工具",
+    "languages": "编程语言",
+    "personal": "语言与兴趣爱好",
+    "paragraph": "我精通法语，并具备良好的英语能力，这得益于我在荷兰和芬兰的学习经历。我在高中时也学过一些德语。绘画是我热爱的兴趣，它为我的项目注入了创意和艺术感。",
+    "langDescriptions": {
+      "javascript": "良好的逻辑理解与 DOM 事件处理能力。",
+      "typescript": "严格的类型系统和 React 最佳实践。",
+      "java": "面向对象编程与数据结构经验。",
+      "html": "结构清晰且可访问。",
+      "css": "响应式设计与基本动画。",
+      "c": "基础内存管理与指针理解。",
+      "dart": "主要用于 Flutter 的编程语言。",
+      "php": "服务器端数据处理。",
+      "sql": "复杂查询与数据库结构设计。"
     },
-    "contact": {
-      "title": "联系我"
-    },
-    "navbar": {
-      "home": "首页",
-      "projects": "项目与工作经验",
-      "skills": "技能",
-      "diplomas": "学历",
-      "drawings": "我的绘画",
-      "contact": "联系我"
-    },
-    "skills": {
-      "title": "技术技能",
-      "technologies": "技术与工具",
-      "languages": "编程语言",
-      "personal": "语言与兴趣",
-      "paragraph": "我能流利地讲法语，并且通过在荷兰和芬兰的旅行掌握了良好的英语。此外，我在高中时学习了一些德语基础。我热爱绘画，这项爱好培养了我的创造力，并提升了我在项目中的艺术敏感度。",
-      "langDescriptions": {
-        "javascript": "良好的逻辑和 DOM 事件理解。",
-        "typescript": "严格类型和 React 最佳实践。",
-        "java": "面向对象编程和数据结构经验。",
-        "html": "结构清晰且可访问。",
-        "css": "响应式设计和简单动画。",
-        "c": "基本的内存和指针理解。",
-        "dart": "主要用于 Flutter。",
-        "php": "服务器端数据处理。",
-        "sql": "复杂查询与数据库结构设计。"
-      },
-      "techDescriptions": {
-        "git": "个人或团队中的高效版本控制。",
-        "github": "协作式项目管理。",
-        "gitlab": "CI/CD 与代码管理。",
-        "react": "组件、hooks 和状态管理。",
-        "symfony": "稳健的 MVC 架构。",
-        "vs": "全面的开发环境。",
-        "flutter": "跨平台移动开发。"
-      }
-    },
-    "diplomas": {
-      "sectionTitle": "我的学历",
-      "bachelor": {
-        "title": "计算机科学 BUT（在读）",
-        "description": "计算机科学 BUT 第二年，应用开发方向：网页开发、面向对象编程和网络管理。",
-        "year": "2023 – 现在"
-      },
-      "bac": {
-        "title": "法国普通高中毕业文凭",
-        "description": "专业方向为计算机科学（NSI）和数学。",
-        "year": "2023"
-      },
-      "brevet": {
-        "title": "初中毕业文凭（Brevet）",
-        "description": "法国国家颁发的初中毕业证书。",
-        "year": "2020"
-      }
-    },
-    "projects": {
-      "title": "我的项目与工作经验",
-      "projectsTitle": "项目",
-      "stack": "技术栈：",
-      "portfolio": {
-        "title": "互动式作品集",
-        "description": "一个直观优雅的作品集，用于展示平面设计师或设计师的才华。"
-      },
-      "focusly": {
-        "title": "Focusly",
-        "description": "一个用于任务管理的学校项目，拥有多种功能。"
-      },
-      "postar": {
-        "title": "Post-AR",
-        "description": "现代响应式明信片管理界面，与荷兰和西班牙的 Erasmus 合作学校共同开发。"
-      },
-      "cyber": {
-        "title": "网络安全课程平台",
-        "description": "在芬兰实习期间开发的职业项目。该网站允许公司创建并销售面向个人的网络安全课程。"
-      },
-      "experiencesTitle": "工作经验",
-      "mytilimer": "暑期工作：了解职业世界，团队合作，遵守生产标准。",
-      "landscape": {
-        "title": "实习 - 生态景观设计办公室",
-        "description": "学习景观设计软件，了解客户需求，制作报价单。"
-      },
-      "erasmus": {
-        "title": "网站开发实习 - Bittiguru Oy（Erasmus 项目）",
-        "description": "网站开发实习（React 与 NestJS），作为与 IUT de Metz（B2 - 计算机科学，PT RA - FI 路线）Erasmus 项目的一部分。"
-      }
-    },
-    "drawings": {
-      "title": "我的绘画",
-      "referenceLabel": "参考来源：",
-      "toolsLabel": "工具：",
-      "references": {
-        "chainsawMan": "电锯人（藤本树的漫画）",
-        "bleach": "死神（久保带人的漫画）",
-        "eldenRing": "艾尔登法环（电子游戏）"
-      },
-      "tools": {
-        "pencil": "纸和石墨铅笔"
-      }
+    "techDescriptions": {
+      "git": "个人或团队高效版本控制。",
+      "github": "项目协作管理平台。",
+      "gitlab": "CI/CD 流程与代码管理。",
+      "react": "组件化开发、Hooks 与状态管理。",
+      "symfony": "强大的 MVC 架构框架。",
+      "vs": "完整的开发环境。",
+      "flutter": "跨平台移动开发框架。"
     }
-  }  
+  },
+  "diplomas": {
+    "sectionTitle": "我的学历",
+    "bachelor": {
+      "title": "信息技术大学文凭（在读）",
+      "description": "信息技术大学文凭第二年，应用开发方向：网页开发、面向对象编程与网络管理。",
+      "year": "2023 – 至今"
+    },
+    "bac": {
+      "title": "法国普通高中毕业文凭",
+      "description": "专业方向：数字与计算机科学（NSI）和数学。",
+      "year": "2023"
+    },
+    "brevet": {
+      "title": "初中毕业文凭",
+      "description": "法国初中毕业国家文凭。",
+      "year": "2020"
+    }
+  },
+  "projects": {
+    "title": "我的项目与工作经验",
+    "projectsTitle": "项目",
+    "stack": "技术栈：",
+    "portfolio": {
+      "title": "交互式作品集",
+      "description": "一个直观优雅的作品集平台，旨在展示平面设计师或视觉艺术家的作品。用户可以评论、点赞并浏览作品，艺术家可以发布和管理自己的作品，管理员则可以管理用户账号与评论。"
+    },
+    "focusly": {
+      "title": "Focusly",
+      "description": "学校项目：开发一个任务管理网站，包含丰富功能，如创建与管理任务、启动工作阶段以及通过主页上不断成长的树来追踪进度。"
+    },
+    "postar": {
+      "title": "Post-AR",
+      "description": "为明信片管理而设计的现代响应式界面，与荷兰和西班牙的 Erasmus 学校合作开发。本项目仅展示前端部分。"
+    },
+    "cyber": {
+      "title": "网络安全课程平台",
+      "description": "在我 Erasmus 实习期间为芬兰公司 Bittiguru Oy 开发的项目。该平台允许企业创建、管理并向个人用户出售网络安全课程。"
+    },
+    "experiencesTitle": "工作经验",
+    "mytilimer": "暑期工作：深入了解职场环境，团队协作与生产规范。",
+    "landscape": {
+      "title": "实习 – 生态景观设计办公室",
+      "description": "学习景观设计软件，理解客户需求并制作报价单。"
+    },
+    "erasmus": {
+      "title": "网页开发实习 – Bittiguru Oy（Erasmus）",
+      "description": "在 Erasmus 项目框架下，于 Bittiguru Oy（React 与 NestJS）进行网页开发实习，合作单位：梅斯大学技术学院（IUT de Metz）。"
+    }
+  },
+  "drawings": {
+    "title": "我的绘画作品",
+    "referenceLabel": "参考：",
+    "toolsLabel": "工具：",
+    "references": {
+      "chainsawMan": "电锯人（藤本树的漫画）",
+      "bleach": "死神（久保带人的漫画）",
+      "eldenRing": "艾尔登法环（电子游戏）"
+    },
+    "tools": {
+      "pencil": "纸张与石墨铅笔"
+    }
+  }
+}
