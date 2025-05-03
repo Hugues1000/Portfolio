@@ -1,3 +1,26 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes imagePulse {
+  0% {
+    box-shadow: 0 0 10px 5px rgba(255, 170, 77, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 17px 9px rgba(255, 170, 77, 1);
+  }
+  100% {
+    box-shadow: 0 0 10px 5px rgba(255, 170, 77, 0.7);
+  }
+}
+
 .home-container {
   display: flex;
   justify-content: center;
@@ -6,6 +29,7 @@
   min-height: calc(100vh - 80px);
   background: #fefefe;
   scroll-margin-top: 80px;
+  animation: fadeInUp 1s ease forwards;
 }
 
 .home-content {
@@ -23,23 +47,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.75rem;
-  background-color: #fff;
-  border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  animation: fadeInUp 1.2s ease forwards, imagePulse 4s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.home-image-wrapper:hover {
+  transform: scale(1.05);
 }
 
 .home-image {
-  width: clamp(150px, 22vw, 220px);
+  width: clamp(180px, 22vw, 250px);
   height: auto;
-  border-radius: 50%;
-  border: 4px solid #ffaa4d;
+  border-radius: 15px;
+  object-fit: cover;
 }
 
 .home-text {
   flex: 1 1 400px;
   max-width: 600px;
   text-align: left;
+  animation: fadeInUp 1.4s ease forwards;
 }
 
 .home-title {
@@ -59,6 +93,7 @@
   display: flex;
   gap: 2rem;
   margin-bottom: 1rem;
+  animation: fadeInUp 1.6s ease forwards;
 }
 
 .icon-link {
@@ -72,26 +107,48 @@
   color: #e68a00;
 }
 
+.cv-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  animation: fadeInUp 1.8s ease forwards;
+}
+
+.cv-button {
+  padding: 1rem 2rem;
+  background-color: #ffaa4d;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cv-button:hover {
+  transform: scale(1.1);
+  background-color: #e68a00;
+}
+
 @media (max-width: 768px) {
   .home-container {
     padding: 1.5rem 1rem 0.5rem;
   }
-
   .home-content {
     flex-direction: column;
     align-items: center;
     gap: 1.2rem;
   }
-
   .home-text {
     text-align: center;
   }
-
   .home-links {
     justify-content: center;
     margin-bottom: 0.5rem;
   }
-
   .contact-section {
     padding: 1.5rem 1rem 2rem;
   }
@@ -103,6 +160,7 @@
   background-color: #f9f9f9;
   border-top: 1px solid #eee;
   scroll-margin-top: 80px;
+  animation: fadeInUp 2s ease forwards;
 }
 
 .contact-title {
@@ -129,29 +187,4 @@
 .contact-icon {
   color: #ffaa4d;
   font-size: 1.5rem;
-}
-
-.cv-buttons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.cv-button {
-  padding: 1rem 2rem;
-  background-color: #ffaa4d;
-  color: white;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 12px;
-  text-decoration: none;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-}
-
-.cv-button:hover {
-  transform: scale(1.1);
-  background-color: #e68a00;
 }

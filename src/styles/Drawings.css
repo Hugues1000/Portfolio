@@ -1,7 +1,24 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .drawing-image {
-    width: 100%;
-    height: auto;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-    object-fit: cover;
-  }  
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  animation: fadeInUp 1.2s ease forwards;
+  transition: transform 0.4s ease;
+}
+
+.drawing-image:hover {
+  transform: scale(1.03);
+}

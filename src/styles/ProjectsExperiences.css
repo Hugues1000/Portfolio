@@ -1,3 +1,14 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .projects-container {
   display: flex;
   justify-content: center;
@@ -6,6 +17,7 @@
   min-height: calc(100vh - 80px);
   background: #f9f9f9;
   scroll-margin-top: 80px;
+  animation: fadeInUp 1s ease forwards;
 }
 
 .projects-content {
@@ -18,10 +30,12 @@
   color: #ffaa4d;
   margin: 4rem 0 3rem;
   text-align: center;
+  animation: fadeInUp 1.2s ease forwards;
 }
 
 .projects-group {
   margin-bottom: 3rem;
+  animation: fadeInUp 1.4s ease forwards;
 }
 
 .projects-group-title {
@@ -29,6 +43,7 @@
   color: #ffaa4d;
   margin-bottom: 2rem;
   text-align: center;
+  animation: fadeInUp 1.6s ease forwards;
 }
 
 .projects-grid {
@@ -45,12 +60,13 @@
   padding: 1.5rem;
   width: 300px;
   text-align: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 1.8s ease forwards;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 .project-title {
